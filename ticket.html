@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Đặt vé</title>
+    <title>Document</title>
 </head>
 <body>
-    
+    <div class="top">
+        <div class="logo">
+            <div class="logo-padding">
+            <img src="images/logo.jpg" alt="logo" width="120px"/>
+            </div>
+        </div>
+        <div class="links">
+            <a href="#" class="item">Trang chủ</a>
+            <a href="#" class="item">Sự kiện</a>
+            <a href="#" class="item">Loài vật</a>
+            <a href="#" class="item">Về chúng tôi</a>
+            <a href="#" class="item">Thư viện</a>
+            <a href="#" class="item">Liên hệ</a>
+            <a href="#" class="item">Đặt vé</a>
+        </div>
+    </div>
+    <div class="main">
+            <section class="ticket-booking">
+                <h1>Book Your Tickets</h1>
+                <form id="booking-form" action="cart.html">
+                    <label for="date">Choose a date:</label>
+                    <input type="date" id="date" name="date" required>
+                    <a href="cart.html"><button class="btn-primary" type="submit" value="47945" name="submit">Continue</button></a>
+                </form>
+            <hr>
+            <div class="general admission">
+                <h3>Quy định giá vé</h3>
+                <ol>
+                    <li>Vé bao gồm phí vào cửa và tham quan trong thời gian hoạt động của Thủy cung, không bao gồm các dịch vụ phụ trợ khác</li>
+                    <li>Quý khách phải xuất trình vé để tham quan thủy cung. Vé không thể chuyển nhượng lại cho người khác sau khi mua</li>
+                    <li>Vé đã mua không thể hoàn trả. Trường hợp mất vé sẽ không được xuất vé lại</li>
+                    <li>Vé hợp lệ phải toàn vẹn, không bị rách, chắp vá, tẩy xóa</li>
+                </ol>
+            </div>
+            <hr>
+            <div id="contact" class="bottom">
+                <h4>Contact us:</h4>
+                Mail: example-mail@gmail.com<br />
+                Phone: 19001000
+            </div>
+    </div>
 </body>
 </html>
