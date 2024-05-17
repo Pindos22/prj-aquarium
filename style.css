@@ -1,13 +1,11 @@
 .index{
-    background-image: url("../img/background-1.jpg");
+    background-image: url("./img/background-2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    height:  800px;
 }
 .logo{
     float: left;
-    
-    line-height: 10px;
-
 }   
 .item{
     text-align: center;
@@ -27,11 +25,9 @@
 .duong-link{
     margin: auto 10px 10px auto; 
     float: right;
-    border-top: 1.5px solid #340101a4;
-    border-bottom: 1px solid #340101a4;
     font-size: 100%;
     padding-right: 20px;
-    color:#340101a4;
+    color:#ffffffa4;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -39,24 +35,20 @@
         display: inline;
         margin: 0px 3px
     }
-
-
-h1{
-    text-align: center;
-    top: 50%
-}
 .bottom {
-    background-color: rgb(9, 0, 79);
-    color:rgb(232, 229, 225);
+    background-color: #252f5f;
     font-family: Arial;
+    text-align: center;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+
 }
 .top{
-    top: 0;
-    position: fixed;
     width: 100%;
-    z-index: 1;
     background-color: #252f5f;
     height: 70px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
 }
 .banner {
     padding-top: 23px;
@@ -79,5 +71,33 @@ h1{
     padding: 10px; 
     font-size: 30px;
     color: #ffffff;
-
+}
+h1{
+    position:absolute;
+    left: 40%;
+    font-size:400%;
+    color: white;
+    top: 90%;
+}
+h2{
+    font-size:300%;
+    color: white;
+}
+h3 {
+    position: absolute;
+    top: 90%;
+    right:  5%;
+    color: white;
+}
+h5 {
+    position: absolute;
+    top:86%;
+    right:  5%
+}
+body {
+    background-color: #252f5f;
+    color:rgb(232, 229, 225);
+}
+.line1 {
+    padding-left: 15%
 }
