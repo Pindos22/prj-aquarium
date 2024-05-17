@@ -1,12 +1,11 @@
 .index{
-    background-image: url("img-vuong/background-1.jpg");
+    background-image: url("../img/background-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
 .logo{
     float: left;
-    background-color:hsla(0, 0%, 100%, 0.812);
+    
     line-height: 10px;
 
 }   
@@ -15,7 +14,7 @@
     cursor: pointer;
     vertical-align: middle;
     text-decoration: none;
-    color: #6e4e02;
+    color: #ddd7ca;
 }
 .on{
     background-color: #44505fcf;
@@ -23,9 +22,9 @@
     cursor: pointer;
     vertical-align: middle;
     text-decoration: none;
-    color: #6e4e02;
+    color: #ddd7ca;
 }
-ul{
+.duong-link{
     margin: auto 10px 10px auto; 
     float: right;
     border-top: 1.5px solid #340101a4;
@@ -36,7 +35,7 @@ ul{
     text-transform: uppercase;
     text-decoration: none;
 }
-    li{
+.duong-link-con{
         display: inline;
         margin: 0px 3px
     }
@@ -44,9 +43,41 @@ ul{
 
 h1{
     text-align: center;
+    top: 50%
 }
 .bottom {
     background-color: rgb(9, 0, 79);
     color:rgb(232, 229, 225);
     font-family: Arial;
+}
+.top{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #252f5f;
+    height: 70px;
+}
+.banner {
+    padding-top: 23px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+
+}
+.text {
+    text-align: center;
+    color:#7b1d1d;
+    font-size:200%;
+}
+.text-overlay {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px; 
+    font-size: 30px;
+    color: #ffffff;
+
 }
