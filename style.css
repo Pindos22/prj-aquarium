@@ -1,5 +1,5 @@
 .index{
-    background-image: url("./img/background-2.jpeg");
+    background-image: url("./img/background-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:  800px;
@@ -36,8 +36,7 @@
         margin: 0px 3px
     }
 .bottom {
-    background-color: #252f5f;
-    font-family: Arial;
+    background-color: #1bafee;
     text-align: center;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
@@ -45,10 +44,11 @@
 }
 .top{
     width: 100%;
-    background-color: #252f5f;
+    background-color: #1bafee;
     height: 70px;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
+    position: fixed;
 }
 .banner {
     padding-top: 23px;
@@ -79,27 +79,32 @@ h1{
     left: 40%;
     font-size:400%;
     color: white;
-    top: 90%;
+    top: 80%;
+    text-transform: uppercase;
 }
 h2{
     font-size:300%;
     color: white;
+    text-transform: uppercase;
 }
 h3 {
     position: absolute;
-    top: 90%;
+    top: 70%;
     right:  5%;
     color: white;
+    text-transform: uppercase;
 }
 h5 {
     position: absolute;
-    top:86%;
-    right:  5%
+    top:60%;
+    right:  5%;
+    font-size:  200%;
 }
 body {
-    background-color: #252f5f;
+    background-color: #1bafee;
     color:rgb(232, 229, 225);
+    font-family: "Arial";
 }
 .line1 {
-    padding-left: 15%
+    padding-left: 7%;
 }
