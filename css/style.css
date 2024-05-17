@@ -1,47 +1,52 @@
-
-.top{
-    top: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    background-color: #1b1effcf;
-    height: 60px;
-    display: inline;
-}
-.logo-padding{
-    padding-top:  16px;
-    padding-bottom:16px;
+.index{
+    background-image: url("img-vuong/background-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .logo{
     float: left;
-}
-.links{
-    float: right;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right:12px;
-    font-size: 16px;
-    line-height: 30px;
-    word-spacing: 25px;
-}
-.book{
-    background-color: #c91818
-    text-align: center;
-    cursor: pointer;
-    vertical-align: middle;
-    text-decoration: none;
-    overflow: hidden;
-    color: inherit;
-    background-color: inherit;
-    color:white;
-}
+    background-color:hsla(0, 0%, 100%, 0.812);
+    line-height: 10px;
+
+}   
 .item{
     text-align: center;
     cursor: pointer;
     vertical-align: middle;
     text-decoration: none;
-    overflow: hidden;
-    color: inherit;
-    background-color: inherit;
-    color:white
+    color: #6e4e02;
+}
+.on{
+    background-color: #44505fcf;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #6e4e02;
+}
+ul{
+    margin: auto 10px 10px auto; 
+    float: right;
+    border-top: 1.5px solid #340101a4;
+    border-bottom: 1px solid #340101a4;
+    font-size: 100%;
+    padding-right: 20px;
+    color:#340101a4;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+    li{
+        display: inline;
+        margin: 0px 3px
+    }
+
+
+h1{
+    text-align: center;
+}
+.bottom {
+    background-color: rgb(9, 0, 79);
+    color:rgb(232, 229, 225);
+    font-family: Arial;
 }
