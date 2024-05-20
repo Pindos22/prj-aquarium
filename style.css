@@ -1,9 +1,12 @@
 
-body {
-    background-color: #000000;
+body, html{
+    background-color: #1aa1db;
     color:rgb(232, 229, 225);
     font-family: Andale Mono;
-    background-image: url(./img/background.jpg);
+        height: 100%;
+        margin: 0;
+        display: grid;
+        grid-template-rows: 1fr auto;
 }
 .top{
     width: 100%;
@@ -15,12 +18,12 @@ body {
     top:0;
 }
 
-/* .index{
+.index{
     background-image: url("./img/background-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:  800px;
-} */
+}
 .logo{
     float: left;
 }   
@@ -76,7 +79,7 @@ body {
     font-size: 30px;
     color: #ffffff;
 }
-.animals-text{
+.indextext{
     position:absolute;
     left: 35%;
     font-size:400%;
@@ -120,4 +123,6 @@ h2{
     text-align: center;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
+    padding: 10px;
+    width:100%;
 }
