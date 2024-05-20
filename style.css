@@ -1,3 +1,14 @@
+
+.top{
+    width: 100%;
+    background-color: #1aa1db;
+    height: 70px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    position: fixed;
+    top:0;
+}
+
 .index{
     background-image: url("./img/background-2.jpg");
     background-repeat: no-repeat;
@@ -8,14 +19,14 @@
     float: left;
 }   
 .item{
-    text-align: center;
+    text-align: center; 
     cursor: pointer;
     vertical-align: middle;
     text-decoration: none;
     color: #ddd7ca;
 }
 .on{
-    background-color: #44505fcf;
+    background-color: #1386b7;
     text-align: center;
     cursor: pointer;
     vertical-align: middle;
@@ -35,21 +46,7 @@
         display: inline;
         margin: 0px 3px
     }
-.bottom {
-    background-color: #1bafee;
-    text-align: center;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
 
-}
-.top{
-    width: 100%;
-    background-color: #1bafee;
-    height: 70px;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
-    position: fixed;
-}
 .banner {
     padding-top: 23px;
 }
@@ -62,7 +59,6 @@
 }
 .text {
     text-align: center;
-    color:#7b1d1d;
     font-size:200%;
 }
 .text-overlay {
@@ -74,37 +70,52 @@
     font-size: 30px;
     color: #ffffff;
 }
-h1{
+.animals-text{
     position:absolute;
-    left: 40%;
+    left: 35%;
     font-size:400%;
     color: white;
-    top: 80%;
+    top: 50%;
     text-transform: uppercase;
 }
 h2{
     font-size:300%;
     color: white;
     text-transform: uppercase;
+    text-align: center;
 }
-h3 {
+.gio-mo-cua {
     position: absolute;
-    top: 70%;
+    top: 50%;
     right:  5%;
     color: white;
     text-transform: uppercase;
 }
-h5 {
+.gio-mo-cua-2{
     position: absolute;
-    top:60%;
+    top:40%;
     right:  5%;
     font-size:  200%;
 }
 body {
-    background-color: #1bafee;
+    background-color: #1aa1db;
     color:rgb(232, 229, 225);
-    font-family: "Arial";
+    font-family: Andale Mono;
 }
 .line1 {
     padding-left: 7%;
+}
+.addtocart{
+    text-align: center;
+}
+.bookingpage {
+    font-size: 300%;
+    text-align: center;
+}
+
+.bottom {
+    background-color: #1aa1db;
+    text-align: center;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
 }
