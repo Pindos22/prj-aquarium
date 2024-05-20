@@ -1,110 +1,29 @@
-.index{
-    background-image: url("./img/background-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:  800px;
+body {
+    background-image: url(./img/background.jpg);
 }
-.logo{
-    float: left;
-}   
-.item{
-    text-align: center;
-    cursor: pointer;
-    vertical-align: middle;
-    text-decoration: none;
-    color: #ddd7ca;
-}
-.on{
-    background-color: #44505fcf;
-    text-align: center;
-    cursor: pointer;
-    vertical-align: middle;
-    text-decoration: none;
-    color: #ddd7ca;
-}
-.duong-link{
-    margin: auto 10px 10px auto; 
-    float: right;
-    font-size: 100%;
-    padding-right: 20px;
-    color:#ffffffa4;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-.duong-link-con{
-        display: inline;
-        margin: 0px 3px
-    }
-.bottom {
-    background-color: #1bafee;
-    text-align: center;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
-
-}
-.top{
+/* .banner {
+    padding-top: 23px;
+} */
+.top {
     width: 100%;
-    background-color: #1bafee;
+    background-color: black;
     height: 70px;
     border-top: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
     position: fixed;
 }
-.banner {
-    padding-top: 23px;
-}
-.image-container {
-    position: relative;
-    display: inline-block;
-    padding-right: 15px;
-    padding-bottom:  15px;
-
-}
-.text {
-    text-align: center;
-    color:#7b1d1d;
-    font-size:200%;
-}
-.text-overlay {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px; 
-    font-size: 30px;
-    color: #ffffff;
-}
-h1{
-    position:absolute;
-    left: 40%;
-    font-size:400%;
-    color: white;
-    top: 80%;
+.duong-link {
+    margin: auto 10px 10px auto;
+text-align: right;    
+font-size: 80%;
+    padding-right: 20px;
+    color: #ffffffa4;
     text-transform: uppercase;
+    text-decoration: none;
 }
-h2{
-    font-size:300%;
-    color: white;
-    text-transform: uppercase;
-}
-h3 {
-    position: absolute;
-    top: 70%;
-    right:  5%;
-    color: white;
-    text-transform: uppercase;
-}
-h5 {
-    position: absolute;
-    top:60%;
-    right:  5%;
-    font-size:  200%;
-}
-body {
-    background-color: #1bafee;
-    color:rgb(232, 229, 225);
-    font-family: "Arial";
-}
-.line1 {
-    padding-left: 7%;
+.duong-link-con {
+    display:inline;
+    margin: 0px 3px;
 }
