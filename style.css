@@ -94,18 +94,18 @@ h2 {
     font-size: 300%;
     color: #00629B;
     text-transform: uppercase;
-    text-align: center;
+    text-align:center;
 }
 .gio-mo-cua {
     position: absolute;
-    top: 50%;
+    top: 60%;
     right: 5%;
     color: white;
     text-transform: uppercase;
 }
 .gio-mo-cua-2 {
     position: absolute;
-    top: 40%;
+    top: 50%;
     right: 5%;
     font-size: 200%;
 }
